@@ -17,3 +17,27 @@ func(4)
 # None : None
 # Function, modules, classes, instances, exceptions
 # advance: Decorators, generators, iterators, metaprogramming
+
+# we dont assign data types to variables, we assign references to objects
+# there is data type assigned inside the memory and it only exists in the memory
+
+# eg : l1 - [1, 2, 3] l2 - l1
+# l1 - one l2 - [1, 2, 3] ; l1 - [1, 2, 3] 
+# l2 and l1 both shows [1, 2, 3] but they are not same object why? because l1 was changed once
+# l1[0] = 33 ; l1 - [33, 2, 3] ; l2 - [1, 2, 3]
+
+# eg : l1 - [1, 2, 3] l2 - l1
+# l1 - [1, 2, 3] l2 - [1, 2, 3] 
+# l1[0] = 44 ; l1 - [44, 2, 3] ; l2 - [44, 2, 3] the same object is referenced by both l1 and l2
+
+# h1 = [1, 2 , 3] h2 = h1[:] ->means we have made a copy, : with no value means take full array, this can be also used in slicing
+# h1[0] = 55; h1 - [55, 2, 3] h2 - [1, 2, 3]
+
+# m == n -> checks the value ; m is n -> checks if the object in the memory is also same
+#  2 ** 100 - > it calculates 2 power 100
+# repr, str , print differences check from google
+
+# math.floor -> (3.5) -> 3
+# math.trunc -> (-2, 8) -> -2 value that comes first on no. line
+# it also handles imaginary nos -> 2 + 3j
+# random.randint(1, 10) -> it gives random no. b/w 1 to 10
