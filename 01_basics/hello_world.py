@@ -41,3 +41,14 @@ func(4)
 # math.trunc -> (-2, 8) -> -2 value that comes first on no. line
 # it also handles imaginary nos -> 2 + 3j
 # random.randint(1, 10) -> it gives random no. b/w 1 to 10
+
+# type of empty parenthesis is dictionary
+# num = "0123456789" -> num[0 : 7 : 2] -> '0246' -> no sliced from 0 to 6 and hopping of 2
+# name = '   thevaishndra   ' -> print(name.strip())
+# chai = ['lemon,' 'ginger,' 'masala,' 'mint,']  print(chai.split(",")) -> ['lemon', 'ginger', 'masala', 'mint']
+# print("".join(chai_variety)) -> LemonMasalaGinger
+# for letter in chai:   print(letter) -> M A S A L A  C H A I
+
+# chai = "He said, \"Masala chai is awesome\" " ->It basically means to ignore double inverted commas from Masala to awesome
+# chai = 'He said, "Masala Chai is awesome" '
+# chai = r"Masala\nChai" -> Masala\nchai
