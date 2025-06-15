@@ -21,6 +21,7 @@ func(4)
 # we dont assign data types to variables, we assign references to objects
 # there is data type assigned inside the memory and it only exists in the memory
 
+# NUMBERS 
 # eg : l1 - [1, 2, 3] l2 - l1
 # l1 - one l2 - [1, 2, 3] ; l1 - [1, 2, 3] 
 # l2 and l1 both shows [1, 2, 3] but they are not same object why? because l1 was changed once
@@ -42,6 +43,7 @@ func(4)
 # it also handles imaginary nos -> 2 + 3j
 # random.randint(1, 10) -> it gives random no. b/w 1 to 10
 
+# STRINGS
 # type of empty parenthesis is dictionary
 # num = "0123456789" -> num[0 : 7 : 2] -> '0246' -> no sliced from 0 to 6 and hopping of 2
 # name = '   thevaishndra   ' -> print(name.strip())
@@ -52,3 +54,16 @@ func(4)
 # chai = "He said, \"Masala chai is awesome\" " ->It basically means to ignore double inverted commas from Masala to awesome
 # chai = 'He said, "Masala Chai is awesome" '
 # chai = r"Masala\nChai" -> Masala\nchai
+
+# ['Black', 'Green', 'White', 'Masala'] if "oolong" in tea_varities: print("I have Oolong tea") -> LIST
+
+# DICTIONARY
+# chai_types = {"Masala": "Spicy", "Ginger": "Zesty", "Green": "Mildy"}
+# for key, value in chai_types.items(): print(key, value)
+
+# squared_num = {x : x**2 for x in range (6)} -> { 0 : 0, 1 : 1, 2 : 4, 3 : 9, 4 : 16, 5 : 25}
+# keys = ["masala", "ginger", "lemon"] -> default_value = "Delicious"
+# new_dict = dict.fromkeys(keys, default_value) -> {'masala' : 'delicious', 'ginger' : 'delicious', 'lemon' : 'delicious'}
+
+# TUPLE
+# type of list but that is immutable
